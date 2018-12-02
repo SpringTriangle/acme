@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns       ="http://www.w3.org/ns/widgets"
+        xmlns: gap  ="http://phonegap.com/ns/1.0"
+        id          ="com.ethiotimes"
+        version     ="1.0">
+
+    <name>ACME</name>
+
+    <description>
+        ACME WEBSITE DESIGN
+    </description>
+
+    <author href="http://ethiotimes.com"
+    email="ethiotimes@outlook.com">
+        ACME WEBSITE DESIGN
+    </author>
+
+    <preference name="permissions" value="none"/>
+
+    <icon src="res/icon/android/mipmap-ldpi/ic_launcher.png"
+          gap:platform="android" gap:qualifier="ldpi"/>
+    <icon src="res/icon/android/mipmap-mdpi/ic_launcher.png"
+          gap:platform="android" gap:qualifier="mdpi"/>
+    <icon src="res/icon/android/mipmap-xhdpi/ic_launcher.png"
+          gap:platform="android" gap:qualifier="xhdpi"/>
+    <icon src="res/icon/android/mipmap-xxhdpi/ic_launcher.png"
+          gap:platform="android" gap:qualifier="xxhdpi"/>
+    <icon src="res/icon/android/mipmap-xxxhdpi/ic_launcher.png"
+          gap:platform="android" gap:qualifier="xxxhdpi"/>
+
+</widget>
